@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    publisher-confirms: true
+    virtual-host: /
+  profiles:
+    active: test
+  application:
+    name: spring-boot-rabbitmq
